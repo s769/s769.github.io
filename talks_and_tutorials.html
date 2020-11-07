@@ -1,0 +1,107 @@
+<head>
+    <title>NCSU RNA RTG | Talks and Tutorials</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  
+  
+    
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- jQuery library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+      integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+      crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+      integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+      crossorigin="anonymous"></script>
+    <link href="https://cdn.ncsu.edu/brand-assets/fonts-2-0/include.css"
+      rel="stylesheet" type="text/css" />
+  
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  
+  
+    <script src="/js/global.js"></script>
+    <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/ub.php?googleCustomSearchCode=ncsu.edu&placeholder=search%20ncsu.edu&maxWidth=1100&color=gray&showBrick=1"></script>
+
+  </head>
+  
+  <body>
+  
+    <div class="wrapper" id="main">
+      <!-- Page Content  -->
+  
+      <div id="content">
+        <div class="container-fluid" id="heading">
+  
+          <h1 id="page-header" class="text-center">
+            Talks and Tutorials
+          </h1>
+        </div>
+  
+        <div class="container" id="pubscontainer">
+            <ul id="pubslist" class="fa-ul"><li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span><a href="/files/Ipsen_ENLA.pdf" target="myIframe">Probabilistic Numerical Linear Solvers</a>, <em>by Ilse Ipsen</em></li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span><a href="/files/gaussian_marginals.pdf" target="myIframe">On marginals of Gaussian random vectors</a>, <em>by Isaac Sunseri and Alen Alexanderian</em></li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span><a href="/files/adjoint_based_gradient_and_hessian.pdf" target="myIframe">Computing gradients and Hessians using the adjoint method</a>, <em>by Alen Alexanderian and Isaac Sunseri</em></li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span><a href="/files/gsa_tutorial.pdf" target="myIframe">Computer tutorial on global sensitivity analysis</a>, <em>by Alen Alexanderian, Pierre Gremaud, and Ralph Smith</em>
+                <br>Computer codes for global sensitivity analysis: <a href="/files/gsa_tutorial_codes.zip">Matlab code</a>
+                <br>You can also view these codes on <a href="https://github.com/aalexanderian/rtg_randomized_numerical_analysis/tree/master/gsa_tutorial_codes" target="_blank">GitHub</a></li>
+            </ul>
+
+        </div>
+
+  
+  
+  
+      </div>
+  
+    </div>
+  
+  
+  
+    <script>
+      $(document).ready(function () {
+        $("#sidetalks").addClass("active");
+        var linkname = $("#pubslist li:first-child a").attr('href');
+
+        $(`
+        <iframe name="myIframe" class="responsive-iframe" width="100%" height="500px">
+            </iframe> 
+        `).attr({src: linkname}).appendTo('#pubscontainer');
+  
+      });
+
+    </script>
+  </body>
+  
+  </html>
