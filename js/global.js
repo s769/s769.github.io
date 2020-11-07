@@ -1,34 +1,34 @@
 $(document).ready(function () {
     var var_sidebar = `<nav id="sidebar">
     <div class="sidebar-header"> 
-                        <a href="/"> 
-                            <img title="Home" class="img-fluid" src="/images/logo.png" alt="NCSU Logo" style="margin-top:3em;"> 
+                        <a href="./"> 
+                            <img title="Home" class="img-fluid" src="./images/logo.png" alt="NCSU Logo" style="margin-top:3em;"> 
                         </a> 
                     </div> 
          
                     <ul class="list-unstyled components"> 
                         <li id="sidehome"> 
-                            <a href="/" class="sidelink">Home</a> 
+                            <a href="./" class="sidelink">Home</a> 
                         </li>
                         
                         <li id="sidewwd"> 
-                            <a href="/what_we_do.html" class="sidelink">What We Do</a> 
+                            <a href="./what_we_do.html" class="sidelink">What We Do</a> 
                         </li> 
 
                         <li id="sideteam"> 
-                            <a href="/team.html" class="sidelink">Team</a> 
+                            <a href="./team.html" class="sidelink">Team</a> 
                         </li> 
 
                         <li id="sidegroup"> 
-                            <a href="/working_groups.html" class="sidelink">Working Groups</a> 
+                            <a href="./working_groups.html" class="sidelink">Working Groups</a> 
                         </li> 
 
                         <li id="sidepubs"> 
-                            <a href="/publications.html" class="sidelink">Publications</a> 
+                            <a href="./publications.html" class="sidelink">Publications</a> 
                         </li> 
                        
                         <li id="sidetalks"> 
-                            <a href="/talks_and_tutorials.html" class="sidelink">Talks and Tutorials</a> 
+                            <a href="./talks_and_tutorials.html" class="sidelink">Talks and Tutorials</a> 
                         </li> 
                     </ul> 
          
