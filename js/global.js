@@ -12,23 +12,15 @@ $(document).ready(function () {
                         </li>
                         
                         <li id="sidewwd"> 
-                            <a href="./what_we_do.html" class="sidelink">What We Do</a> 
-                        </li> 
-
-                        <li id="sideteam"> 
-                            <a href="./team.html" class="sidelink">Team</a> 
-                        </li> 
-
-                        <li id="sidegroup"> 
-                            <a href="./working_groups.html" class="sidelink">Working Groups</a> 
+                            <a href="./CV.html" class="sidelink">CV</a> 
                         </li> 
 
                         <li id="sidepubs"> 
-                            <a href="./publications.html" class="sidelink">Publications</a> 
+                            <a href="./research.html" class="sidelink">Research</a> 
                         </li> 
                        
                         <li id="sidetalks"> 
-                            <a href="./talks_and_tutorials.html" class="sidelink">Talks and Tutorials</a> 
+                            <a href="./extracurricular.html" class="sidelink">Extracurricular</a> 
                         </li> 
                     </ul> 
          

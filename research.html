@@ -1,0 +1,134 @@
+<head>
+    <title>Sreeram Venkat | Research</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  
+  
+    
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- jQuery library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- <link href="https://cdn.ncsu.edu/brand-assets/fonts-2-0/include.css"
+      rel="stylesheet" type="text/css" />
+   -->
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+      integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+      crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+      integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+      crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+  
+  
+    <script src="./js/global.js"></script>
+    <!-- <script src="https://cdn.ncsu.edu/brand-assets/utility-bar/ub.php?googleCustomSearchCode=ncsu.edu&placeholder=search%20ncsu.edu&maxWidth=1100&color=gray&showBrick=1"></script> -->
+
+  </head>
+  
+  <body>
+  
+    <div class="wrapper" id="main">
+      <!-- Page Content  -->
+  
+      <div id="content">
+        <div class="container-fluid" id="heading">
+  
+          <h1 id="page-header" class="text-center">
+            Research
+          </h1>
+        </div>
+  
+        <div class="container">
+          <h2>
+            Publications
+          </h2>
+          <div style="margin-left: 2em;">
+          <ul id="pubslist" class="fa-ul">
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Venkat, S., Milind, N., &amp; Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).</li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Jiang, Q., Lan, T., Okoudjou, K., Strichartz, R., Sule, S., Venkat, S., &amp; Wang, X. (2020). Sobolev Orthogonal Polynomials on the Sierpinski Gasket. <a href="https://arxiv.org/pdf/2010.00107">arXiv preprint arXiv:2010.00107</a>.</li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Bertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., &amp; Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries</li>
+            </ul>
+          </div>  
+          <h2>NSF Randomized Numerical Analysis RTG</h2>
+          <p>
+            Currently, I am working with Dr. Ralph Smith and Dr. Tim Kelley on creating reduced-order models that obey conservation laws. I found that for PDE models based on conservation of an energy-like functional, 
+            we can use a discrete version of Green's Identity to derive a finite-difference scheme that conserved the analogous discrete quantity.
+             To this end, I considered Summation By Parts (SBP) operators that define finite-difference schemes and associated quadrature rules in such a way that the discrete solution conserves energy.
+             Then, I created a reduced-order model using the snapshot Proper Orthogonal Decomposition (POD) method and found that it conserves a mass-like quantity but fails to conserve the classical energy for the wave equation. 
+            Now, I am working to determine an appropriate modification to the POD method that will allow the reduced-order model to conserve energy.
+             In addition, I know that POD-type reduced-order models fail to capture the dynamics of the original system when the data does not lie close to a lower-dimensional <em>linear</em> subspace of the state space. 
+            As a result, I plan to use the ideas of manifold learning through convolutional autoencoders in conjunction with conservation law preservation to create fast, accurate reduced-order models that can be used reliably for long-term predictions.
+            I also manage the RTG <a href="https://wp.math.ncsu.edu/rna/">website</a>.
+          </p>
+
+          <h2> UCLA Computational and Applied Mathematics REU (2020) </h2>
+          <p>
+            I worked with Dr. Andrea Bertozzi, Dr. Weiqi Chu, and Dr. Wen Li to study phase separation and volume expansion in lithium-ion batteries. 
+            Specifically, we wanted to determine how the addition of nanopores in a silicon-based anode would affect the mechanical stress and strains 
+            underwent by the battery during the charging-discharging process. While working on this project, I spoke with several experts in math modeling, 
+            chemistry, and engineering to better understand the physical context of the problem and develop new methods for analyzing the system. By the end of the project, 
+            I was able to create a finite-element solver for fourth-order, nonlinear, time-dependent system of PDEs that was used to model the system on a two-dimensional domain with and 
+            without pores and plot hysteresis loops to determine that the addition of nanopores increases the mechanical stability of the batteries over time. 
+          </p>
+
+          <h2>Cornell Summer Program for Undergraduate Research (2019)</h2>
+          <p>
+            In the summer of 2019, I participated in the Cornell Math Summer Program for Undergraduate Research (SPUR), 
+            where I worked with Dr. Robert Strichartz and Dr. Kasso Okoudjou to study orthogonal polynomials on fractals. 
+            Through the course of this project, I was able to derive recurrence relations for Sobolev Orthogonal Polynomials 
+            on the Sierpinski Gasket  and create a comprehensive software package in Python that was used to study the properties 
+            of these polynomials and enable fast numerical implementations of the results. During the final weeks of the project, 
+            I also studied how we can use these orthogonal polynomials to compute quadrature and interpolation rules on fractals. 
+            I presented the SPUR work at several conferences &mdash; including the Young Mathematicians Conference 2019 and Joint 
+            Mathematics Meeting 2020 &mdash; and on the SPUR <a href="https://e.math.cornell.edu/sites/op_on_sg/html/">website</a>. 
+            Furthermore, I continued to polish and compile the results from the project, and have submitted the paper 
+            for publication in the <em>Journal of Fourier Analysis and Applications</em>.
+          </p>
+        </div>
+  
+
+  
+  
+  
+      </div>
+  
+    </div>
+  
+  
+  
+    <script>
+      $(document).ready(function () {
+        $("#sidepubs").addClass("active");
+  
+      });
+    </script>
+  </body>
+  
+  </html>

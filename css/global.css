@@ -189,7 +189,7 @@ a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 3em;
+    margin-top: 0em;
 }
 
 #page-header {
@@ -302,6 +302,7 @@ a.article:hover {
 
 #heading {
     margin-bottom:5%;
+    padding-top:-10%;
 }
 
 a:not(.sidelink){
