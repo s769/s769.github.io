@@ -2,7 +2,7 @@ $(document).ready(function () {
     var var_sidebar = `<nav id="sidebar">
     <div class="sidebar-header"> 
                         <a href="./"> 
-                            <img title="Home" class="img-fluid" src="./images/logo.png" alt="NCSU Logo" style="margin-top:3em;"> 
+                            <img title="Home" class="img-fluid" src="./images/logo.png" alt="UT Austin Logo" style="margin-top:3em;"> 
                         </a> 
                     </div> 
          

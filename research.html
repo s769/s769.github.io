@@ -67,27 +67,57 @@
   
         <div class="container">
           <h2>
-            Publications
+            Publications and Presentations
           </h2>
           <div style="margin-left: 2em;">
           <ul id="pubslist" class="fa-ul">
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Venkat, S., Smith, R. C., &amp; Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling.<a href="https://arxiv.org/pdf/2108.12453">arXiv preprint arXiv:2108.12453. </a><b>Presentation: </b> SIAM UQ 2022.</li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Jiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., &amp; Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. <a href="https://arxiv.org/pdf/2010.00107">arXiv preprint arXiv:2010.00107</a>. <b>Presentations: </b> Young Mathematicians Conference 2019, NCSU Summer Research Symposium 2019, SUMS Conference 2019, Joint Mathematics Meeting 2020, Brown University SUMS Conference 2021.</li>
+            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Bertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., &amp; Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request). <b>Presentation: </b> UCLA Summmer Research Symposium 2020.</li>
             <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Venkat, S., Milind, N., &amp; Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).</li>
-            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Jiang, Q., Lan, T., Okoudjou, K., Strichartz, R., Sule, S., Venkat, S., &amp; Wang, X. (2020). Sobolev Orthogonal Polynomials on the Sierpinski Gasket. <a href="https://arxiv.org/pdf/2010.00107">arXiv preprint arXiv:2010.00107</a>.</li>
-            <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Bertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., &amp; Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries</li>
             </ul>
           </div>  
-          <h2>NSF Randomized Numerical Analysis RTG</h2>
+          <h2>Center for Computational Geophysics and Optimization (Oden Institute)</h2>
+          <img class="img-fluid float-left mr-4 imgModal" src="./images/gwaves.jpeg" style="max-width: 25%;"
+          alt="Gravitational Waves">
+          <p> 
+            I am currently working with my advisor (Dr. Omar Ghattas) and a postdoc (Dr. Milinda Fernando) to study methods
+             for the inverse problem for gravitational wave detection. For this project, I have read the current literature
+              on general relativity and gravitational waves as well as some aspects of the numerical solution to the governing
+               equations. It turns out that the numerical solvers for these equations are extremely computationally expensive,
+                taking several days/weeks for each forward solve. Now, I am currently exploring Gaussian Process (GP) 
+                surrogate models. We have trained several GPs on a database of numerical relativity solutions. We are 
+                using those surrogates in a synthetic Bayesian inverse problem. 
+                For this, we are using the Markov Chain Monte Carlo (MCMC) method using a Delayed Rejection Adaptive 
+                Metropolis sampler. We are finding that the GP surrogate works well inside the training data regime, 
+                and we hope to use the uncertainty estimates given by the GP to inform future runs of the numerical 
+                relativity code. We can also incorporate the GP uncertainty into the Bayesian inference as model error, 
+                which leads to an error covariance matrix that is a function of the parameters. Finally, we are studying 
+                coordinate transformations and reduced bases that can help simplify the inverse problem.
+          </p>
+          <h2>Los Alamos National Laboratory XCP Summer Workshop (2021)</h2>
+          <p>
+            In the summer of 2021, I worked with researchers Dr. Bertrand Rouet-Leduc and Christopher Ren at LANL to study
+            Generative Adversarial Networks (GANs) for generating synthetic InSAR data to be used in training denoising
+            networks. In particular, we considered several GAN architectures including Wasserstein GANs and Cycle GANs. More
+            details available upon request.
+          </p>
+          <h2>NSF Randomized Numerical Analysis RTG (2018-2021)</h2>
           <img class="img-fluid float-left mr-4 imgModal" src="./images/rtg.png" style="max-width: 25%;"
           alt="Convolutional Autoencoders">
           <p>
-            Currently, I am working with Dr. Ralph Smith and Dr. Tim Kelley on creating reduced-order models that obey conservation laws. I found that for PDE models based on conservation of an energy-like functional, 
-            we can use a discrete version of Green's Identity to derive a finite-difference scheme that conserved the analogous discrete quantity.
-             To this end, I considered Summation By Parts (SBP) operators that define finite-difference schemes and associated quadrature rules in such a way that the discrete solution conserves energy.
-             Then, I created a reduced-order model using the snapshot Proper Orthogonal Decomposition (POD) method and found that it conserves a mass-like quantity but fails to conserve the classical energy for the wave equation. 
-            Now, I am working to determine an appropriate modification to the POD method that will allow the reduced-order model to conserve energy.
-             In addition, I know that POD-type reduced-order models fail to capture the dynamics of the original system when the data does not lie close to a lower-dimensional <em>linear</em> subspace of the state space. 
-            As a result, I plan to use the ideas of manifold learning through convolutional autoencoders in conjunction with conservation law preservation to create fast, accurate reduced-order models that can be used reliably for long-term predictions.
-            I also manage the RTG <a href="https://wp.math.ncsu.edu/rna/">website</a>.
+            At NC State, I worked with Dr. Ralph Smith and Dr. Tim Kelley as part of the NSF RTG on Randomized Numerical 
+            Analysis to study reduced-order models that obey conservation laws. In the construction of reduced-order models 
+            for dynamical systems, linear projection methods, 
+            such as proper orthogonal decompositions, are commonly employed. However, for many dynamical systems, the lower 
+            dimensional representation of the state space can most accurately be described by a <i>nonlinear</i> manifold. 
+            Previous research has shown that deep learning can provide an efficient method for performing nonlinear dimension 
+            reduction, though they are dependent on the availability of training data and are often problem-specific. Here, 
+            we utilized randomized training data to create and train convolutional autoencoders 
+            to perform nonlinear dimension reduction for the wave and Kuramoto-Shivasinsky equations. 
+            Moreover, we presented training methods that are independent of full-order model samples and use the 
+            manifold least-squares Petrov-Galerkin projection method to define a reduced-order model for the heat, 
+            wave, and Kuramoto-Shivasinsky equations using the same autoencoder.
           </p>
 
           <h2> UCLA Computational and Applied Mathematics REU (2020) </h2>

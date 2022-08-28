@@ -57,7 +57,7 @@ a:focus {
     left: -250px;
     height: 100vh;
     z-index: 9999;
-    background: #CC0000;
+    background: #bf5700;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -73,7 +73,7 @@ a:focus {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #CC0000;
+    background: #bf5700;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -85,7 +85,7 @@ a:focus {
 
 #dismiss:hover {
     background: #fff;
-    color: #CC0000;
+    color: #bf5700;
 }
 
 .overlay {
@@ -106,12 +106,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #CC0000;
+    background: #bf5700;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #CC0000;
+    border-bottom: 1px solid #bf5700;
 }
 
 #sidebar ul p {
@@ -126,7 +126,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #CC0000;
+    color: #bf5700;
     background: #fff;
 }
 
@@ -151,7 +151,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #CC0000;
+    background: #bf5700;
 }
 
 ul.CTAs {
@@ -168,12 +168,12 @@ ul.CTAs a {
 
 a.download {
     background: #fff;
-    color: #CC0000;
+    color: #bf5700;
 }
 
 a.article,
 a.article:hover {
-    background: #CC0000 !important;
+    background: #bf5700 !important;
     color: #fff !important;
 }
 
@@ -199,8 +199,8 @@ a.article:hover {
 
 #sidebarCollapse {
     float: left;
-    background-color: #CC0000;
-    border-color: #CC0000;
+    background-color: #bf5700;
+    border-color: #bf5700;
     position: sticky;
     top:5%;
     z-index: 10;
@@ -297,7 +297,7 @@ a.article:hover {
 }
 
 .back-to-top:hover{
-    color: #CC0000;
+    color: #bf5700;
 }
 
 #heading {
@@ -306,7 +306,7 @@ a.article:hover {
 }
 
 a:not(.sidelink){
-    color: #CC0000;
+    color: #bf5700;
 }
 
 a:not(.sidelink):hover{
@@ -316,12 +316,12 @@ a:not(.sidelink):hover{
 
 
 .fa-li{
-    color: #CC0000;
+    color: #bf5700;
     margin-top: 2px;
 }
 
 
 .filter{
-    background-color: #CC0000;
+    background-color: #bf5700;
 }
 
