@@ -46,6 +46,10 @@ a:focus {
     margin: 40px 0;
 }
 
+a.capt-link:hover{
+    color: #ffb77a !important;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -153,6 +157,7 @@ ul ul a {
     padding-left: 30px !important;
     background: #bf5700;
 }
+
 
 ul.CTAs {
     padding: 20px;

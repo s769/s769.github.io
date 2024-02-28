@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- jQuery library -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+
   <!-- Latest compiled JavaScript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="./css/global.css" />
@@ -29,11 +29,12 @@
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
   <!-- <link href="https://cdn.ncsu.edu/brand-assets/fonts-2-0/include.css"
     rel="stylesheet" type="text/css" /> -->
-    
+
 
   <!-- jQuery CDN - Slim version (=without AJAX) -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -61,7 +62,7 @@
 
   <div class="wrapper" id="main">
     <!-- Page Content  -->
- 
+
 
     <div id="content">
       <div class="container-fluid" id="heading">
@@ -69,52 +70,56 @@
         <h1 id="page-header" class="text-center">
           Sreeram Venkat
         </h1>
+
       </div>
 
       <div class="container container-fluid" id="team">
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <img class="img-fluid float-left mr-4 imgModal" src="./images/profile_picture.jpg"
-            alt="Sreeram Venkat">
-    </div>
-    <div class="col">
-      <p>
-        I am a second year NSF Graduate Research Fellow and CSEM Fellow at the Oden Institute, UT Austin pursuing a Ph. D. in Computational Science, Engineering and Mathematics.
-        My research interests include
-      <div class="sus-list" style="margin-left: 1em;">
+        <div class="container" style="display: flex;">
+            <div class="col1">
+              <img class="img-fluid float-left mr-4 imgModal" src="./images/profile_picture.jpg" style="width: 90%;"
+                alt="Sreeram Venkat">
+            </div>
+            <div class="col2">
+              <p>
+                I am a third year NSF Graduate Research Fellow and CSEM Fellow at the Oden Institute, UT Austin pursuing
+                a Ph. D. in Computational Science, Engineering and Mathematics.
+                My research interests include
 
-     <ul class="fa-ul" style="margin-left: 3em;"><li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Design and analysis of mathematical models to study physical and biological phenomena</li>
-        <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Reduced-order models of complex physical systems</li>
-        <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Machine Learning and Gaussian Process regression</li></ul>
-      <p>with applications in astrophysics (gravitational waves), geophysics, and fluid dynamics. Working with scientists and engineers from different fields,
-      I hope to use interdisciplinary approaches to solve problems.</p>
-      <h2>Contact</h2>
-        <div style="margin-left: 1em;">
-        <i class="fas fa-envelope-square"></i>&nbsp;<a href="mailto:srvenkat@utexas.edu">srvenkat@utexas.edu</a><br>
-        <i class="fab fa-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/sreeram-venkat-162526104/">sreeram-venkat</a><br>
-        <i class="fab fa-github"></i>&nbsp;<a href="https://www.github.com/s769">s769</a><br>
-        <i class="fas fa-mobile-alt"></i>&nbsp; (919) 244-0530
+                <ul class="fa-ul" style="margin-left: 3em;">
+                  <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Design and analysis of
+                    mathematical models to study physical and biological phenomena</li>
+                  <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Development and
+                    implementation of algorithms for HPC</li>
+                  <li><span class="fa-li"><i class="fa-li fas fa-chevron-right"></i></span>Real-time, High-fidelity
+                    Bayesian Inverse Problems</li>
+                </ul>
+                <p>with applications in geophysics, astrophysics (gravitational waves), and
+                  fluid dynamics. Working with
+                  scientists and engineers from different fields,
+                  I hope to use interdisciplinary approaches to solve problems.</p>
+              </p>
+            </div>
+        </div>
+        <div class="text-center">
+          <i class="fas fa-envelope-square"></i>&nbsp;<a href="mailto:srvenkat@utexas.edu">srvenkat@utexas.edu</a>
+          <i class="fab fa-linkedin"></i>&nbsp;<a
+            href="https://www.linkedin.com/in/sreeram-venkat-162526104/">sreeram-venkat</a>
+          <i class="fab fa-github"></i>&nbsp;<a href="https://www.github.com/s769">s769</a>
+        </div>
+
+
       </div>
-    </div>
-  </p>
-    </div>
-  </div>
-</div>
-
 
     </div>
 
-  </div>
 
 
+    <script>
+      $(document).ready(function () {
+        $("#sidehome").addClass("active");
 
-  <script>
-    $(document).ready(function () {
-      $("#sidehome").addClass("active");
-
-    });
-  </script>
+      });
+    </script>
 </body>
 
 </html>
