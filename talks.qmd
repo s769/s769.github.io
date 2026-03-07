@@ -1,0 +1,100 @@
+---
+title: "Talks & Presentations"
+---
+
+Here are the interactive slides for my recent talks and presentations.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">SIAM PP26</h5>
+<h6 class="card-subtitle mb-2 text-muted">March 2026</h6>
+<p class="card-text">Fast and Scalable Algorithms for Bayesian Inverse Problems Governed by Autonomous Dynamical Systems.</p>
+<a href="https://s769.github.io/reveal.js/SIAM_PP_26.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Robert J. Melosh Medal Competition</h5>
+<h6 class="card-subtitle mb-2 text-muted">October 2025</h6>
+<p class="card-text">Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone.</p>
+<a href="https://s769.github.io/reveal.js/Melosh.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">NERSC User Group Annual Meeting</h5>
+<h6 class="card-subtitle mb-2 text-muted">October 2025</h6>
+<p class="card-text">Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning.</p>
+<a href="https://s769.github.io/reveal.js/NUG.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">BGCE Prize</h5>
+<h6 class="card-subtitle mb-2 text-muted">March 2025</h6>
+<p class="card-text">Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems.</p>
+<a href="https://s769.github.io/reveal.js/BGCE_prize.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">SIAM CSE</h5>
+<h6 class="card-subtitle mb-2 text-muted">March 2025</h6>
+<p class="card-text">Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems.</p>
+<a href="https://s769.github.io/reveal.js/SIAM_CSE_25.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">WCCM-PANACM 2024</h5>
+<h6 class="card-subtitle mb-2 text-muted">July 2024</h6>
+<p class="card-text">Real-Time High-Fidelity Algorithms for Extreme-Scale Bayesian Inverse Problems Involving Shift-Invariant Systems.</p>
+<a href="https://s769.github.io/reveal.js/wccm_24.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">SIAM PP24</h5>
+<h6 class="card-subtitle mb-2 text-muted">March 2024</h6>
+<p class="card-text">Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems.</p>
+<a href="https://s769.github.io/reveal.js/siam_pp_24.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+:::

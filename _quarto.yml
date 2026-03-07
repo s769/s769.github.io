@@ -16,6 +16,8 @@ website:
         file: cv.qmd
       - text: "Research"
         file: research.qmd
+      - text: "Talks"
+        file: talks.qmd
       - text: "Extracurricular"
         file: extracurricular.qmd
 
