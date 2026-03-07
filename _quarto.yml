@@ -16,11 +16,8 @@ website:
         file: cv.qmd
       - text: "Research"
         file: research.qmd
-<<<<<<< HEAD
       - text: "Talks"
         file: talks.qmd
-=======
->>>>>>> f1ea9e1f84749f87c60bc9641609ef4aeed00bd5
       - text: "Extracurricular"
         file: extracurricular.qmd
 
