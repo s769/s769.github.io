@@ -1,20 +1,70 @@
 [
   {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "Here are the interactive slides for my recent talks and presentations.\n\n\n\n\n\nSIAM PP26\n\n\nMarch 2026\n\n\nFast and Scalable Algorithms for Bayesian Inverse Problems Governed by Autonomous Dynamical Systems.\n\n  View Slides \n\n\n\n\n\n\n\nRobert J. Melosh Medal Competition\n\n\nOctober 2025\n\n\nReal-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone.\n\n  View Slides \n\n\n\n\n\n\n\nNERSC User Group Annual Meeting\n\n\nOctober 2025\n\n\nReal-time Bayesian inference at extreme scale: A digital twin for tsunami early warning.\n\n  View Slides \n\n\n\n\n\n\n\nBGCE Prize\n\n\nMarch 2025\n\n\nFast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems.\n\n  View Slides \n\n\n\n\n\n\n\nSIAM CSE\n\n\nMarch 2025\n\n\nReal-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems.\n\n  View Slides \n\n\n\n\n\n\n\nWCCM-PANACM 2024\n\n\nJuly 2024\n\n\nReal-Time High-Fidelity Algorithms for Extreme-Scale Bayesian Inverse Problems Involving Shift-Invariant Systems.\n\n  View Slides \n\n\n\n\n\n\n\nSIAM PP24\n\n\nMarch 2024\n\n\nFast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems.\n\n  View Slides",
+    "crumbs": [
+      "Talks"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sreeram Venkat",
+    "section": "",
+    "text": "I am a PhD candidate in Computational Science, Engineering and Mathematics at the Oden Institute, UT Austin. My research interests include:\n\nDesign and analysis of mathematical models to study physical and biological phenomena\nDevelopment and implementation of algorithms for HPC\nReal-time, High-fidelity Bayesian Inverse Problems\n\nwith applications in tsunami early warning. Working with scientists and engineers from different fields, I hope to use interdisciplinary approaches to solve problems.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download PDF",
+    "crumbs": [
+      "CV"
+    ]
+  },
+  {
+    "objectID": "extracurricular.html",
+    "href": "extracurricular.html",
+    "title": "Extracurricular Activities",
+    "section": "",
+    "text": "I have been learning Carnatic Music since the age of five. I started learning from Smt. Shyamala Krishna in Kansas and later was under the tutelage of Smt. Geetha Ganesh in Cary, Sri Malladi Suribabu, and Smt. Malladi Vasavi in India. Currently, I am learning from Sri. Madurai R. Sundar in Detroit and have given performances througout the U.S. and India. Here is one of my recent concerts and a lecture-demonstration on the “Pancha Bhuta Linga Kritis of Sri Muthuswami Dikshitar.”",
+    "crumbs": [
+      "Extracurricular"
+    ]
+  },
+  {
+    "objectID": "extracurricular.html#indian-classical-carnatic-music",
+    "href": "extracurricular.html#indian-classical-carnatic-music",
+    "title": "Extracurricular Activities",
+    "section": "",
+    "text": "I have been learning Carnatic Music since the age of five. I started learning from Smt. Shyamala Krishna in Kansas and later was under the tutelage of Smt. Geetha Ganesh in Cary, Sri Malladi Suribabu, and Smt. Malladi Vasavi in India. Currently, I am learning from Sri. Madurai R. Sundar in Detroit and have given performances througout the U.S. and India. Here is one of my recent concerts and a lecture-demonstration on the “Pancha Bhuta Linga Kritis of Sri Muthuswami Dikshitar.”",
+    "crumbs": [
+      "Extracurricular"
+    ]
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Henneking, S., Venkat, S., & Ghattas, O. (2026) Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning. Journal of Computational Physics. DOI.\nHenneking, S., Venkat, S., Dobrev, V., Camier, J., Kolev, T., Fernando, M., Gabriel, A.A. & Ghattas, O., (2025) Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone. DOI — 2025 ACM Gordon Bell Prize Winner. Presentations: SC’25, NERSC User Group Annual Meeting 2025, Robert J. Melosh Medal Competition 2025 (Finalist).\nVenkat, S., Fernando, M., Henneking, S., & Ghattas, O. (2025). Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems Governed by Autonomous Dynamical Systems. SIAM Journal on Scientific Computing, 47(5), B1201-B1226. DOI. Presentations: SIAM PP 2024, WCCM-PANACM 2024, SIAM CSE 2025, BGCE Prize Finalist 2025, SC’25 (ACM Student Research Competition)\nVenkat, S., Świrydowicz, K., Wolfe, N., & Ghattas, O. (2025). Mixed-Precision Performance Portability of FFT-Based GPU-Accelerated Algorithms for Block-Triangular Toeplitz Matrices. Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis. DOI. Presentations: P3HPC at SC’25.\nVenkat, S., Henneking, S., Fernando, M. S., & Ghattas, O. (2024). Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems. World Congress on Computational Mechanics (WCCM), Vancouver, BC. Zenodo (DOI). Best Paper and Best Poster awards at WCCM-PANACM 2024\nVenkat, S., Smith, R. C., & Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling. arXiv preprint arXiv:2108.12453. Presentations: SIAM UQ 2022.\nJiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., & Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. DOI. Presentations: Young Mathematicians Conference 2019, NCSU Summer Research Symposium 2019, SUMS Conference 2019, Joint Mathematics Meeting 2020, Brown University SUMS Conference 2021.\nBertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., & Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request). Presentation: UCLA Summmer Research Symposium 2020.\nVenkat, S., Milind, N., & Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).",
+    "text": "Henneking, S., Venkat, S., & Ghattas, O. (2026) Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning. Journal of Computational Physics. DOI.\nHenneking, S., Venkat, S., Dobrev, V., Camier, J., Kolev, T., Fernando, M., Gabriel, A.A. & Ghattas, O., (2025) Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone. DOI — 2025 ACM Gordon Bell Prize Winner.\nVenkat, S., Fernando, M., Henneking, S., & Ghattas, O. (2025). Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems Governed by Autonomous Dynamical Systems. SIAM Journal on Scientific Computing, 47(5), B1201-B1226. DOI.\nVenkat, S., Świrydowicz, K., Wolfe, N., & Ghattas, O. (2025). Mixed-Precision Performance Portability of FFT-Based GPU-Accelerated Algorithms for Block-Triangular Toeplitz Matrices. Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis. DOI.\nVenkat, S., Henneking, S., Fernando, M. S., & Ghattas, O. (2024). Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems. World Congress on Computational Mechanics (WCCM), Vancouver, BC. Zenodo (DOI). Best Paper and Best Poster awards at WCCM-PANACM 2024\nVenkat, S., Smith, R. C., & Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling. arXiv preprint arXiv:2108.12453. * Jiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., & Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. DOI.\nBertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., & Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request).\nVenkat, S., Milind, N., & Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).",
     "crumbs": [
       "Research"
     ]
   },
   {
-    "objectID": "research.html#publications-and-presentations",
-    "href": "research.html#publications-and-presentations",
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
     "title": "Research",
     "section": "",
-    "text": "Henneking, S., Venkat, S., & Ghattas, O. (2026) Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning. Journal of Computational Physics. DOI.\nHenneking, S., Venkat, S., Dobrev, V., Camier, J., Kolev, T., Fernando, M., Gabriel, A.A. & Ghattas, O., (2025) Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone. DOI — 2025 ACM Gordon Bell Prize Winner. Presentations: SC’25, NERSC User Group Annual Meeting 2025, Robert J. Melosh Medal Competition 2025 (Finalist).\nVenkat, S., Fernando, M., Henneking, S., & Ghattas, O. (2025). Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems Governed by Autonomous Dynamical Systems. SIAM Journal on Scientific Computing, 47(5), B1201-B1226. DOI. Presentations: SIAM PP 2024, WCCM-PANACM 2024, SIAM CSE 2025, BGCE Prize Finalist 2025, SC’25 (ACM Student Research Competition)\nVenkat, S., Świrydowicz, K., Wolfe, N., & Ghattas, O. (2025). Mixed-Precision Performance Portability of FFT-Based GPU-Accelerated Algorithms for Block-Triangular Toeplitz Matrices. Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis. DOI. Presentations: P3HPC at SC’25.\nVenkat, S., Henneking, S., Fernando, M. S., & Ghattas, O. (2024). Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems. World Congress on Computational Mechanics (WCCM), Vancouver, BC. Zenodo (DOI). Best Paper and Best Poster awards at WCCM-PANACM 2024\nVenkat, S., Smith, R. C., & Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling. arXiv preprint arXiv:2108.12453. Presentations: SIAM UQ 2022.\nJiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., & Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. DOI. Presentations: Young Mathematicians Conference 2019, NCSU Summer Research Symposium 2019, SUMS Conference 2019, Joint Mathematics Meeting 2020, Brown University SUMS Conference 2021.\nBertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., & Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request). Presentation: UCLA Summmer Research Symposium 2020.\nVenkat, S., Milind, N., & Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).",
+    "text": "Henneking, S., Venkat, S., & Ghattas, O. (2026) Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning. Journal of Computational Physics. DOI.\nHenneking, S., Venkat, S., Dobrev, V., Camier, J., Kolev, T., Fernando, M., Gabriel, A.A. & Ghattas, O., (2025) Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone. DOI — 2025 ACM Gordon Bell Prize Winner.\nVenkat, S., Fernando, M., Henneking, S., & Ghattas, O. (2025). Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems Governed by Autonomous Dynamical Systems. SIAM Journal on Scientific Computing, 47(5), B1201-B1226. DOI.\nVenkat, S., Świrydowicz, K., Wolfe, N., & Ghattas, O. (2025). Mixed-Precision Performance Portability of FFT-Based GPU-Accelerated Algorithms for Block-Triangular Toeplitz Matrices. Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis. DOI.\nVenkat, S., Henneking, S., Fernando, M. S., & Ghattas, O. (2024). Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems. World Congress on Computational Mechanics (WCCM), Vancouver, BC. Zenodo (DOI). Best Paper and Best Poster awards at WCCM-PANACM 2024\nVenkat, S., Smith, R. C., & Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling. arXiv preprint arXiv:2108.12453. * Jiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., & Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. DOI.\nBertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., & Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request).\nVenkat, S., Milind, N., & Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).",
     "crumbs": [
       "Research"
     ]
@@ -67,46 +117,6 @@
     "text": "Cornell Summer Program for Undergraduate Research (2019)\n\n\n\nSierpinski Gasket\n\n\nIn the summer of 2019, I participated in the Cornell Math Summer Program for Undergraduate Research (SPUR), where I worked with Dr. Robert Strichartz and Dr. Kasso Okoudjou to study orthogonal polynomials on fractals. Through the course of this project, I was able to derive recurrence relations for Sobolev Orthogonal Polynomials on the Sierpinski Gasket and create a comprehensive software package in Python that was used to study the properties of these polynomials and enable fast numerical implementations of the results. During the final weeks of the project, I also studied how we can use these orthogonal polynomials to compute quadrature and interpolation rules on fractals. I presented the SPUR work at several conferences — including the Young Mathematicians Conference 2019 and Joint Mathematics Meeting 2020 — and on the SPUR website. Furthermore, I continued to polish and compile the results from the project, and have submitted the paper for publication in the Journal of Fourier Analysis and Applications.",
     "crumbs": [
       "Research"
-    ]
-  },
-  {
-    "objectID": "extracurricular.html",
-    "href": "extracurricular.html",
-    "title": "Extracurricular Activities",
-    "section": "",
-    "text": "I have been learning Carnatic Music since the age of five. I started learning from Smt. Shyamala Krishna in Kansas and later was under the tutelage of Smt. Geetha Ganesh in Cary, Sri Malladi Suribabu, and Smt. Malladi Vasavi in India. Currently, I am learning from Sri. Madurai R. Sundar in Detroit and have given performances througout the U.S. and India. Here is one of my recent concerts and a lecture-demonstration on the “Pancha Bhuta Linga Kritis of Sri Muthuswami Dikshitar.”",
-    "crumbs": [
-      "Extracurricular"
-    ]
-  },
-  {
-    "objectID": "extracurricular.html#indian-classical-carnatic-music",
-    "href": "extracurricular.html#indian-classical-carnatic-music",
-    "title": "Extracurricular Activities",
-    "section": "",
-    "text": "I have been learning Carnatic Music since the age of five. I started learning from Smt. Shyamala Krishna in Kansas and later was under the tutelage of Smt. Geetha Ganesh in Cary, Sri Malladi Suribabu, and Smt. Malladi Vasavi in India. Currently, I am learning from Sri. Madurai R. Sundar in Detroit and have given performances througout the U.S. and India. Here is one of my recent concerts and a lecture-demonstration on the “Pancha Bhuta Linga Kritis of Sri Muthuswami Dikshitar.”",
-    "crumbs": [
-      "Extracurricular"
-    ]
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download PDF",
-    "crumbs": [
-      "CV"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sreeram Venkat",
-    "section": "",
-    "text": "I am a PhD candidate in Computational Science, Engineering and Mathematics at the Oden Institute, UT Austin. My research interests include:\n\nDesign and analysis of mathematical models to study physical and biological phenomena\nDevelopment and implementation of algorithms for HPC\nReal-time, High-fidelity Bayesian Inverse Problems\n\nwith applications in tsunami early warning. Working with scientists and engineers from different fields, I hope to use interdisciplinary approaches to solve problems.",
-    "crumbs": [
-      "Home"
     ]
   }
 ]
