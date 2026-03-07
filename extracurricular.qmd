@@ -1,0 +1,23 @@
+---
+title: "Extracurricular Activities"
+---
+
+## Indian Classical Carnatic Music
+
+I have been learning Carnatic Music since the age of five. I started learning from Smt. Shyamala Krishna in Kansas and later was under the tutelage of Smt. Geetha Ganesh in Cary, Sri Malladi Suribabu, and Smt. Malladi Vasavi in India. Currently, I am learning from Sri. Madurai R. Sundar in Detroit and have given performances througout the U.S. and India. Here is one of my recent concerts and a lecture-demonstration on the "Pancha Bhuta Linga Kritis of Sri Muthuswami Dikshitar."
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<div style="padding-right: 10px;">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/4bzIjZ-gJA0?si=ev17x--oBAgd6M2J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+:::
+
+::: {.column width="50%"}
+<div style="padding-left: 10px;">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/M-3svQ7OWvU?si=_6P4So7zNEMejkGC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+:::
+
+::::

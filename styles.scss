@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+$primary: #bf5700;
+/* UT Austin Burnt Orange */
+$link-color: #bf5700;
+
+/*-- scss:rules --*/
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: rgb(0, 0, 0);
+}
+
+/* Replicating the old link hover behavior */
+a:hover {
+    color: black;
+    transition: all 0.3s;
+}
+
+/* Ensuring floating images look great and have some spacing */
+.research-img {
+    float: left;
+    max-width: 25%;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.research-img:hover {
+    opacity: 0.8;
+}
+
+/* Ensure the about page profile picture has slightly rounded corners */
+.about-image {
+    border-radius: 5px;
+}

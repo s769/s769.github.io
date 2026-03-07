@@ -1,0 +1,24 @@
+---
+title: "Sreeram Venkat"
+about:
+  template: trestles
+  image: ./images/profile_picture.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:srvenkat@utexas.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/sreeram-venkat-162526104/
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/s769
+---
+
+I am a PhD candidate in Computational Science, Engineering and Mathematics at the Oden Institute, UT Austin. My research interests include:
+
+* Design and analysis of mathematical models to study physical and biological phenomena
+* Development and implementation of algorithms for HPC
+* Real-time, High-fidelity Bayesian Inverse Problems
+
+with applications in tsunami early warning. Working with scientists and engineers from different fields, I hope to use interdisciplinary approaches to solve problems.
