@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sreeram Venkat"
+  favicon: "./favicon/favicon-32x32.png"
+  sidebar:
+    style: "docked"
+    search: true
+    logo: "./images/logo.png"
+    contents:
+      - text: "Home"
+        file: index.qmd
+      - text: "CV"
+        file: cv.qmd
+      - text: "Research"
+        file: research.qmd
+      - text: "Extracurricular"
+        file: extracurricular.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    lightbox: true
+    css: styles.scss
