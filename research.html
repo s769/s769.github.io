@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -216,16 +236,23 @@ window.Quarto = {
 
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<ul>
-<li>Henneking, S., Venkat, S., &amp; Ghattas, O. (2026) Goal-Oriented Real-Time Bayesian Inference for Linear Autonomous Dynamical Systems With Application to Digital Twins for Tsunami Early Warning. Journal of Computational Physics. <a href="https://doi.org/10.1016/j.jcp.2026.114682">DOI</a>.</li>
-<li>Henneking, S., Venkat, S., Dobrev, V., Camier, J., Kolev, T., Fernando, M., Gabriel, A.A. &amp; Ghattas, O., (2025) Real-time Bayesian inference at extreme scale: A digital twin for tsunami early warning applied to the Cascadia subduction zone. <a href="https://doi.org/10.1145/3712285.3771787">DOI</a> — <strong>2025 ACM Gordon Bell Prize Winner</strong>.</li>
-<li>Venkat, S., Fernando, M., Henneking, S., &amp; Ghattas, O. (2025). Fast and Scalable FFT-Based GPU-Accelerated Algorithms for Hessian Actions Arising in Linear Inverse Problems Governed by Autonomous Dynamical Systems. SIAM Journal on Scientific Computing, 47(5), B1201-B1226. <a href="https://doi.org/10.1137/24M1683172">DOI</a>.</li>
-<li>Venkat, S., Świrydowicz, K., Wolfe, N., &amp; Ghattas, O. (2025). Mixed-Precision Performance Portability of FFT-Based GPU-Accelerated Algorithms for Block-Triangular Toeplitz Matrices. Workshops of the International Conference for High Performance Computing, Networking, Storage, and Analysis. <a href="https://doi.org/10.1145/3731599.3767490">DOI</a>.</li>
-<li>Venkat, S., Henneking, S., Fernando, M. S., &amp; Ghattas, O. (2024). Real-Time High-Fidelity Algorithms for Bayesian Inverse Problems Involving Shift-Invariant Systems. World Congress on Computational Mechanics (WCCM), Vancouver, BC. Zenodo (<a href="https://doi.org/10.5281/zenodo.13755545">DOI</a>). <strong>Best Paper and Best Poster awards at WCCM-PANACM 2024</strong></li>
-<li>Venkat, S., Smith, R. C., &amp; Kelley, C. T. (2021). Convolutional Autoencoders for Reduced-Order Modeling. <a href="https://arxiv.org/pdf/2108.12453">arXiv preprint arXiv:2108.12453</a>. * Jiang, Q., Lan, T., Okoudjou, K. A., Strichartz, R. S., Sule, S., Venkat, S., &amp; Wang, X. (2021). Sobolev orthogonal polynomials on the Sierpinski gasket. Journal of Fourier Analysis and Applications, 27(3), 1-38. <a href="https://doi.org/10.1007/s00041-021-09819-0">DOI</a>.</li>
-<li>Bertozzi, A., Chu, W., Fromcke, T., Li, W., Schreiber, I., &amp; Venkat, S. Phase-Separation and Volume Expansion in Lithium-Ion Batteries (available upon request).</li>
-<li>Venkat, S., Milind, N., &amp; Reddy, N. (2017). Migration to Mars. UMAP Journal, 38(2).</li>
-</ul>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-henneking2026goal" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">S. Henneking, S. Venkat, and O. Ghattas, <span>“Goal-oriented real-time <span>Bayesian</span> inference for linear autonomous dynamical systems with application to digital twins for tsunami early warning,”</span> <em>Journal of Computational Physics</em>, vol. 552, p. 114682, 2026, doi: <a href="https://doi.org/10.1016/j.jcp.2026.114682">10.1016/j.jcp.2026.114682</a>.</div>
+</div>
+<div id="ref-venkat2025fft" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">S. Venkat, M. Fernando, S. Henneking, and O. Ghattas, <span>“Fast and scalable <span>FFT</span>-based <span>GPU</span>-accelerated algorithms for block-triangular <span>Toeplitz</span> matrices with application to linear inverse problems governed by autonomous dynamical systems,”</span> <em>SIAM Journal on Scientific Computing</em>, vol. 47, no. 5, pp. B1201–B1226, 2025, doi: <a href="https://doi.org/10.1137/24M1683172">10.1137/24M1683172</a>.</div>
+</div>
+<div id="ref-henneking2025bell" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[3] </div><div class="csl-right-inline">S. Henneking, S. Venkat, V. Dobrev, J. Camier, T. Kolev, M. Fernando, A.-A. Gabriel, and O. Ghattas, <span>“Real-time <span>Bayesian</span> inference at extreme scale: <span>A</span> digital twin for tsunami early warning applied to the <span>Cascadia</span> subduction zone,”</span> in <em>Proceedings of the international conference for high performance computing, networking, storage and analysis</em>, in SC ’25. New York, NY, USA: Association for Computing Machinery, 2025, pp. 60–71. doi: <a href="https://doi.org/10.1145/3712285.3771787">10.1145/3712285.3771787</a>. 2025 ACM Gordon Bell Prize Winner.</div>
+</div>
+<div id="ref-venkat2025mixed" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[4] </div><div class="csl-right-inline">S. Venkat, K. Świrydowicz, N. Wolfe, and O. Ghattas, <span>“Mixed-precision performance portability of FFT-based GPU-accelerated algorithms for block-triangular toeplitz matrices,”</span> in <em>Proceedings of the SC’25 workshops of the international conference for high performance computing, networking, storage and analysis</em>, 2025, pp. 1133–1146. doi: <a href="https://doi.org/10.1145/3731599.3767490">10.1145/3731599.3767490</a>.</div>
+</div>
+<div id="ref-jiang2021sobolev" class="csl-entry" role="listitem">
+<div class="csl-left-margin">[5] </div><div class="csl-right-inline">Q. Jiang, T. Lan, K. A. Okoudjou, R. S. Strichartz, S. Sule, S. Venkat, and X. Wang, <span>“Sobolev orthogonal polynomials on the sierpinski gasket,”</span> <em>Journal of Fourier Analysis and Applications</em>, vol. 27, no. 3, p. 38, 2021, doi: <a href="https://doi.org/10.1007/s00041-021-09868-0">10.1007/s00041-021-09868-0</a>.</div>
+</div>
+</div>
 </section>
 <section id="optimus-oden-institute" class="level2">
 <h2 class="anchored" data-anchor-id="optimus-oden-institute">OPTIMUS (Oden Institute)</h2>
