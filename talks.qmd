@@ -9,6 +9,71 @@ Here are the interactive slides for my recent talks and presentations.
 ::: {.g-col-12 .g-col-md-6}
 <div class="card h-100 shadow-sm">
 <div class="card-body">
+<h5 class="card-title">SC26</h5>
+<h6 class="card-subtitle mb-2 text-muted">November 2026</h6>
+<p class="card-text">Sensor Placement for Tsunami Early Warning via Large-Scale Bayesian Optimal Experimental Design.</p>
+<a href="https://s769.github.io/reveal.js/SC26_OED.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">SC26 Doctoral Showcase</h5>
+<h6 class="card-subtitle mb-2 text-muted">November 2026</h6>
+<p class="card-text">Real-Time High-Fidelity Bayesian Inference and Forecasting of Tsunamis: A Digital Twin for Tsunami Early Warning Applied to the Cascadia Subduction Zone.</p>
+<a href="https://s769.github.io/reveal.js/SC26_Doctoral_Showcase.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">MTMOD Workshop</h5>
+<h6 class="card-subtitle mb-2 text-muted">August 2026</h6>
+<p class="card-text">Goal-Oriented Sensor Placement for Tsunami Early Warning via Large-Scale Bayesian Optimal Experimental Design.</p>
+<a href="https://s769.github.io/reveal.js/MTMOD_26.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">Argonne National Laboratory LANS Seminar</h5>
+<h6 class="card-subtitle mb-2 text-muted">July 2026</h6>
+<p class="card-text">Digital Twins for Tsunami Early Warning: Real-Time Bayesian Inversion, Prediction, and OED.</p>
+<a href="https://s769.github.io/reveal.js/ANL_LANS_26.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<h5 class="card-title">SIAM UQ26</h5>
+<h6 class="card-subtitle mb-2 text-muted">March 2026</h6>
+<p class="card-text">Goal-Oriented Dimension Reduction for Bayesian Inverse Problems Governed by Autonomous Dynamical Systems.</p>
+<a href="https://s769.github.io/reveal.js/SIAM_UQ_26.html" class="btn btn-primary" target="_blank">
+<i class="bi bi-easel"></i> View Slides
+</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+<div class="card h-100 shadow-sm">
+<div class="card-body">
 <h5 class="card-title">SIAM PP26</h5>
 <h6 class="card-subtitle mb-2 text-muted">March 2026</h6>
 <p class="card-text">Fast and Scalable Algorithms for Bayesian Inverse Problems Governed by Autonomous Dynamical Systems.</p>
